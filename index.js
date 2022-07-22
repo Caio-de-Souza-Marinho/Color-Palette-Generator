@@ -26,25 +26,25 @@ function generateColors() {
 function copyToClipboard1() {
   const hex1 = document.getElementById("hex1").innerText;
   navigator.clipboard.writeText(hex1).then(() => {
-    alert("Copiado para área de transferência");
+    swal(hex1, "Copiado para área de transferência", "success");
   });
 }
 function copyToClipboard2() {
   const hex2 = document.getElementById("hex2").innerText;
   navigator.clipboard.writeText(hex2).then(() => {
-    alert("Copiado para área de transferência");
+    swal(hex2, "Copiado para área de transferência", "success");
   });
 }
 function copyToClipboard3() {
   const hex3 = document.getElementById("hex3").innerText;
   navigator.clipboard.writeText(hex3).then(() => {
-    alert("Copiado para área de transferência");
+    swal(hex3, "Copiado para área de transferência", "success");
   });
 }
 function copyToClipboard4() {
   const hex4 = document.getElementById("hex4").innerText;
   navigator.clipboard.writeText(hex4).then(() => {
-    alert("Copiado para área de transferência");
+    swal(hex4, "Copiado para área de transferência", "success");
   });
 }
 
