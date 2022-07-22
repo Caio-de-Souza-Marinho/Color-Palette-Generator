@@ -7,40 +7,51 @@
     <title>Color Pallete Generator</title>
   </head>
   <body>
-    <div class="pallete">
-      <button class="generate">Nova paleta</button>
-      <div class="colors">
-        <div class="colors-content">
-          <h4 class="hex" id="hex1"></h4>
-          <div class="color"></div>
-          <button class="copy-btn" id="copy1" onclick="copyToClipboard1()">
-            Copiar cor
-          </button>
-        </div>
-        <div class="colors-content">
-          <h4 class="hex" id="hex2"></h4>
-          <div class="color"></div>
-          <button class="copy-btn" id="copy2" onclick="copyToClipboard2()">
-            Copiar cor
-          </button>
-        </div>
-        <div class="colors-content">
-          <h4 class="hex" id="hex3"></h4>
-          <div class="color"></div>
-          <button class="copy-btn" id="copy3" onclick="copyToClipboard3()">
-            Copiar cor
-          </button>
-        </div>
-        <div class="colors-content">
-          <h4 class="hex" id="hex4"></h4>
-          <div class="color"></div>
-          <button class="copy-btn" id="copy4" onclick="copyToClipboard4()">
-            Copiar cor
-          </button>
+    <header>
+      <h1>Gerador de paleta de cores 🎨</h1>
+    </header>
+    <main>
+      <div class="pallete">
+        <button class="generate">Nova paleta</button>
+        <div class="colors">
+          <div class="colors-content">
+            <h4 class="hex" id="hex1"></h4>
+            <div class="color"></div>
+            <button class="copy-btn" id="copy1" onclick="copyToClipboard1()">
+              Copiar cor
+            </button>
+          </div>
+          <div class="colors-content">
+            <h4 class="hex" id="hex2"></h4>
+            <div class="color"></div>
+            <button class="copy-btn" id="copy2" onclick="copyToClipboard2()">
+              Copiar cor
+            </button>
+          </div>
+          <div class="colors-content">
+            <h4 class="hex" id="hex3"></h4>
+            <div class="color"></div>
+            <button class="copy-btn" id="copy3" onclick="copyToClipboard3()">
+              Copiar cor
+            </button>
+          </div>
+          <div class="colors-content">
+            <h4 class="hex" id="hex4"></h4>
+            <div class="color"></div>
+            <button class="copy-btn" id="copy4" onclick="copyToClipboard4()">
+              Copiar cor
+            </button>
+          </div>
         </div>
       </div>
-    </div>
+    </main>
 
+    <footer>
+      <h3>
+        &copy 2022
+        <a href="https://github.com/Caio-de-Souza-Marinho">Caio Marinho</a>
+      </h3>
+    </footer>
     <script src="index.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   </body>
